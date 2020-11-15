@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.193">
+<testcase classname="MGI Bank Login page" name="Home page defoult login" time="0.067">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given USer is on landing page...............................................undefined
+When user click  icon and sign in buttom....................................skipped
+And user login into aplication with <username> and <password>...............skipped
+Then Home pahe is populated.................................................skipped
+And Signout buttom is displayed.............................................skipped
+]]></failure>
+</testcase>
+</testsuite>

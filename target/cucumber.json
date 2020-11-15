@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-15T13:00:50.787Z",
+        "line": 3,
+        "name": "Home page defoult login",
+        "description": "",
+        "id": "mgi-bank-login-page;home-page-defoult-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "USer is on landing page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click  icon and sign in buttom",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user login into aplication with \u003cusername\u003e and \u003cpassword\u003e",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Home pahe is populated",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Signout buttom is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "MGI Bank Login page",
+    "description": "",
+    "id": "mgi-bank-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/bank.feature",
+    "tags": []
+  }
+]
