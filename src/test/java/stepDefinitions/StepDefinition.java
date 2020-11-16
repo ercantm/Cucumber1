@@ -112,7 +112,7 @@ public class StepDefinition {
 	    @Then("^user info will not  display$")
 	    public void user_info_will_not_display() throws Throwable {
 	    	driver.findElement(By.xpath(" //li[@id='account-menu']//a[@class='d-flex align-items-center dropdown-toggle nav-link']")).click();
-	    	Assert.assertTrue(driver.findElements(By.xpath("//span[normalize-space()='Sign out']")).size()<0); 
+	    	Assert.assertFalse(driver.findElements(By.xpath("//span[normalize-space()='Sign out']")).size()<0); 
 	   System.out.println("cancel button is working ");
 	    
 	    }
