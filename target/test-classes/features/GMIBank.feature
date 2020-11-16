@@ -1,6 +1,6 @@
 Feature: MGI Bank Login page 
 
-
+@SmokeTest
 Scenario: 
 Given user is on landing page 
 When user click  icon and sign in buttom
